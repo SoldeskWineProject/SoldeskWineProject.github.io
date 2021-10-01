@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;    
+}
+
+#subNav {
+    display:block;
+    position: absolute;
+    right: 4px;
+    z-index:99;
+}
+
+#subNav li {
+    margin: 5px 0 0 0;
+    background: rgba( 0 , 0 ,0 , 0.6);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 );
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#subNav li a{
+    display: block;
+    padding: 15px;
+    color: white;
+} 
+
+
+#contentWrap div{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content01{
+    background-color: antiquewhite;
+}
+
+.content02{
+    background-color: aqua;
+}
+
+.content03{
+    background-color: khaki;
+}
+
+.content04{
+    background-color: darksalmon;
+}
+
+.content05{
+    background-color: lightcoral;
+}
