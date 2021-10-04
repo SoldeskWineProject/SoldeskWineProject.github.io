@@ -21,11 +21,10 @@
 				<h1>WINE EASY</h1>
 				<nav>
 					<ul>
-						<li><a href="#intro">첫 화면</a></li>
-						<li><a href="#one">소개</a></li>
-						<li><a href="#two">구독서비스</a></li>
-						<li><a href="#work">와인판매</a></li>
-						<li><a href="#contact">로그인</a></li>
+						<li><a href="#">구독서비스</a></li>
+						<li><a href="#">와인판매</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">로그인</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -33,11 +32,11 @@
 			<div class="wrap">
         <div id="subNav">
             <ul>
-                <li><a href="#intro">첫 화면</a></li>
+                <li><a href="#intro">처음</a></li>
                 <li><a href="#one">소개</a></li>
                 <li><a href="#two">구독서비스</a></li>
                 <li><a href="#work">와인판매</a></li>
-                <li><a href="#contact">로그인</a></li>
+                <li><a href="#contact">질문?</a></li>
             </ul>
         </div><!-- #subNav end-->
         </div>
@@ -49,10 +48,10 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>와인이지</h2>
+						<h2>WINE EASY</h2>
 					</header>
-					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
-					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
+					<h4>Welcome to WINE EASY</h4><br />
+					<h5>소물리에가 당신의 와인을 찾아드립니다</h5>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
@@ -63,11 +62,9 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>ㅎㅇ</h2>
+						<h2>소개</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>구독을 하시면 실력있는 소물리에가 당신의 와인을 감별해드립니다 해주세요.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -76,11 +73,16 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>ㅎㅇ</h2>
+						<h2>구독서비스</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					소물리넹릊디
+					정기적으로 집에 찾아오는 와인
+					당신도 모르는 당신의 취향을 찾아드립니다
+<!-- 					<p>초급 월 2회 99,000원</p><br />
+					<p>중급 월 2회 + 와인시음회 199,000원</p><br />
+					<p>고급 월 2회 + 와인시음회 499,000원</p><br />
+					<p>1회상담 39,800원</p><br />
+					<p>시음회 참여권 30,000원</p><br /> -->
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -89,13 +91,12 @@
 			<section id="work" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>ㅎㅇ</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+						<h2>와인판매</h2>
+						<p>마음에 드는 와인을 최고의 가격에 가져가세요?</p>
 					</header>
 
 					<!-- Gallery  -->
+						<!-- 이달의 와인 -->
 						<div class="gallery">
 							<article class="from-left">
 								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
@@ -124,8 +125,8 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>로그인</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<h2>무엇이든물어보세요</h2>
+						<!-- 관리자한테 질문 관리자는 관리자페이지에서 그거에 대한 답변 주기 -->
 					</header>
 					<div class="box">
 						<form method="post" action="#">
