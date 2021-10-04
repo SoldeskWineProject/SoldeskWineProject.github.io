@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
 html, body{
     height: 100%;    
 }
@@ -19,16 +20,23 @@ html, body{
     color: white;
     text-align: center;
     border-radius: 8px;
-    font-size: 11px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #subNav li a{
     display: block;
     padding: 15px;
     color: white;
+    text-decoration: none;
 } 
 
+#subNav li a:hover{
+  text-decoration: underline;
+  
+} 
 
 #contentWrap div{
     width: 100%;
