@@ -1,9 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<div class="container-fluid bg-dark text-white" style="margin-top:50px;padding-top:30px;padding-bottom:30px">
-	<div class="container">
-		<p>http://www.softSoldesk.co.kr</p>
-		<p>게시판 예제</p>
-		<p>사업자번호 : 000-111-222</p>
-	</div>
-</div>
+	<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+					<h3>귤조 솔데스크 510호 112-1111</h3>
+					</ul>
+
+			</footer>

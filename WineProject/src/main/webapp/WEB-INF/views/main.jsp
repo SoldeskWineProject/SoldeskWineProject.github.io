@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE HTML>
 <!--
 	Big Picture by HTML5 UP
@@ -7,7 +9,7 @@
 -->
 <html>
 	<head>
-		<title>Big Picture by HTML5 UP</title>
+		<title>WINE EASY</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,18 +18,7 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<h1>WINE EASY</h1>
-				<nav>
-					<ul>
-						<li><a href="#">구독서비스</a></li>
-						<li><a href="#">와인판매</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">로그인</a></li>
-					</ul>
-				</nav>
-			</header>
+	<c:import url="/WEB-INF/views/include/top_menu.jsp" />
 			
 			<div class="wrap">
         <div id="subNav">
@@ -36,7 +27,7 @@
                 <li><a href="#one">소개</a></li>
                 <li><a href="#two">구독서비스</a></li>
                 <li><a href="#work">와인판매</a></li>
-                <li><a href="#contact">질문?</a></li>
+                <li><a href="#contact">QnA</a></li>
             </ul>
         </div><!-- #subNav end-->
         </div>
@@ -64,7 +55,8 @@
 					<header>
 						<h2>소개</h2>
 					</header>
-					<p>구독을 하시면 실력있는 소물리에가 당신의 와인을 감별해드립니다 해주세요.</p>
+					<h3>구독을 하시면 실력있는 소물리에가 당신의<br />
+					 와인을 감별해드립니다 해주세요.</h3>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -75,9 +67,12 @@
 					<header>
 						<h2>구독서비스</h2>
 					</header>
-					소물리넹릊디
+					
+					<h3>
+					당신만의 구독서비스
 					정기적으로 집에 찾아오는 와인
 					당신도 모르는 당신의 취향을 찾아드립니다
+					</h3>
 <!-- 					<p>초급 월 2회 99,000원</p><br />
 					<p>중급 월 2회 + 와인시음회 199,000원</p><br />
 					<p>고급 월 2회 + 와인시음회 499,000원</p><br />
@@ -92,7 +87,7 @@
 				<div class="content">
 					<header>
 						<h2>와인판매</h2>
-						<p>마음에 드는 와인을 최고의 가격에 가져가세요?</p>
+						<h3>마음에 드는 와인을 최고의 가격에 가져가세요</h3>
 					</header>
 
 					<!-- Gallery  -->
@@ -144,24 +139,7 @@
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
-
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</footer>
+		<c:import url="/WEB-INF/views/include/bottom_info.jsp" />
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
